@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container,
+        .inner {
+            height: 200px;
+            width: 300px;
+            border: 2px solid darkviolet;
+        }
+
+        .container {
+            background-color: lightsalmon;
+        }
+
+        .inner {
+            background-color: lightgreen;
+            /* transform korar jonne eita use kora hoi jodi onek gula transform use kori tahole ek sathe use korbo jodi alada kore use kori tahole latest transform ta dekhabe baki gula dekhabe height width change korte scale use kora hoi*/       
+            transform: translate(20px,20px) scale(0.5) rotate(30deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transformer i am back.</h1>
+    <div class="box container">
+        <div class="inner">iner-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">iner-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">iner-3</div>
+    </div>
+</body>
+
+</html>
